@@ -1,0 +1,52 @@
+<div class="max-w-sm mx-auto mt-10 rounded overflow-hidden shadow-lg space-y-4">
+    <img
+      class="h-64 w-full object-cover object-center"
+      src="https://source.unsplash.com/random"
+      alt="Random unsplash photo"
+    />
+    <div class="w-full h-full fixed block top-0 left-0 bg-white opacity-75 z-50" *ngIf="showSpinner">
+        <span class="text-green-500 opacity-75 top-1/2 my-0 mx-auto block relative w-0 h-0 " style="
+          top: 50%;
+      ">
+          <i class="fas fa-circle-notch fa-spin fa-5x"></i>
+        </span>
+      </div>
+    <div class="px-6">
+      <div class="font-bold text-xl">Angular w/ Tailwind</div>
+      <p class="text-gray-700 text-base">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
+        quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
+        nihil.
+      </p>
+
+     
+    </div>
+    <div class="px-6 pb-4 space-x-2">
+        
+      <a
+        href="https://angular.io"
+        target="_blank"
+        rel="noreferrer"
+        class="inline-block bg-red-500 rounded-full px-3 py-1 text-sm font-semibold text-white hover:bg-red-700"
+      >
+        #angular
+      </a>
+      <a
+        href="https://tailwindcss.com"
+        target="_blank"
+        rel="noreferrer"
+        class="inline-block bg-indigo-500 rounded-full px-3 py-1 text-sm font-semibold text-white hover:bg-indigo-700"
+      >
+        #tailwind
+      </a>
+      <a
+        href="https://notiz.dev"
+        target="_blank"
+        rel="noreferrer"
+        class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 hover:bg-blue-400"
+      >
+        #notiz
+      </a>
+    </div>
+</div>
+
